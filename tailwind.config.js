@@ -4,9 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        familjenGrotesk: ["Familjen Grotesk", "sans-serif"],
-        spaceGrotesk: ["Space Grotesk", "sans-serif"],
-        spaceMono: ["Space Mono", "monospace"],
+        "big-shoulders": ["Big Shoulders Display", "sans-serif"],
+        "lexend-deca": ["Lexend Deca", "sans-serif"],
       },
     },
   },
