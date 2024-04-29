@@ -1,4 +1,4 @@
-const carData = [
+export const carData = [
   {
     icon: "/icon-sedans.svg",
     title: "Sedans",
