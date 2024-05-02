@@ -3,9 +3,14 @@ import { carData } from "./static/data";
 
 function App() {
   return (
-    <div className="">
+    <div className="px-5">
       {carData.map((item, index) => (
-        <article className="">
+        <article
+          className=""
+          style={{
+            backgroundColor: item.color,
+          }}
+        >
           <img src={item.icon} alt="" />
           <h1 className="">{item.title}</h1>
           <p className="">{item.desc}</p>
