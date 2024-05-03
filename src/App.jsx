@@ -3,7 +3,7 @@ import { carData } from "./static/data";
 
 function App() {
   return (
-    <div className="px-5">
+    <div className="px-5 py-10">
       {carData.map((item, index) => (
         <article
           className=""
